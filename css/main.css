@@ -1,0 +1,355 @@
+/* main visual */
+.main_visual { width:100%; height:692px; position:relative;  margin-top: 172px;}
+.main_visual ul.visual_wrap { width:100%; height:692px; position:relative; }
+.main_visual ul.visual_wrap li { background-position:center center;  display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center;  -ms-flex-align:center; -webkit-box-align:center; align-items:center; position:absolute; left:0; right:0; top:0; bottom:0; z-index:1;}
+.main_visual ul.visual_wrap li a { width:680px; height:220px; margin-bottom:100px; font-size:15px; font-weight:800; text-align:center; display:block; color:#fff; display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center;  -ms-flex-align:center; -webkit-box-align:center; align-items:center; -ms-flex-direction:column; -webkit-box-orient:vertical; flex-direction:column; -ms-flex-align:stretch; -webkit-box-align:stretch; align-items:stretch; position:relative;}
+.main_visual ul.visual_wrap li a .ln1 {font-weight: normal; margin-top:10px; display:block; font-size:38px; line-height:150%; }
+.main_visual ul.visual_wrap li a .ln2  {display:block; font-size:38px; line-height:150%; }
+.main_visual ul.visual_wrap li a .bg { position:absolute; left:0; top:0; right:0; bottom:0; z-index:-1; background:#000; filter:Alpha(opacity=40); -moz-opacity:0.4; opacity:0.4; }
+.main_visual ul.visual_nav { position:absolute; z-index:2; left:50%; top:45%; margin-top:136px; transform: translate(-50%, 0); display:-ms-flexbox; display:-webkit-box; display:flex; }
+.main_visual ul.visual_nav li { padding:0 3px; }
+.main_visual ul.visual_nav li a { font-size:0; width:12px; height:12px; border-radius:6px; display:block; background:#fff; }
+.main_visual ul.visual_nav li a.active { background:#c4ce69; }
+
+.main_quick_menu { width:1200px; left:50%; transform: translate(-50%, 0); bottom:56px; position:absolute; z-index:2;display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-align:stretch; -webkit-box-align:stretch; align-items:stretch;}
+.main_quick_menu li { -webkit-box-flex:1 1 auto; -ms-flex:1 1 auto; flex: 1 1 auto; text-align:center; ;}
+.main_quick_menu li a { color:#fff; display:block; font-size:22px; font-weight:700; }
+.main_quick_menu li a:hover { color:#fff; font-weight:700;}
+.main_quick_menu li.quick01 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main01_normal.png) 50% 0 no-repeat; width:100%; height:68px; display:block; text-align:center; }
+.main_quick_menu li.quick02 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main02_normal.png) 50% 0 no-repeat; width:100%; height:68px; display:block; text-align:center; }
+.main_quick_menu li.quick03 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main03_normal.png) 50% 0 no-repeat; width:100%; height:68px; display:block; text-align:center; }
+.main_quick_menu li.quick04 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main04_normal.png) 50% 0 no-repeat; width:100%; height:68px; display:block; text-align:center; }
+.main_quick_menu li.quick05 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main05_normal.png) 50% 0 no-repeat; width:100%; height:68px; display:block; text-align:center; }
+.main_quick_menu li.quick06 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main06_normal.png) 50% 0 no-repeat; width:100%; height:68px; display:block; text-align:center; }
+
+.main_quick_menu li.quick01 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main01_over.png) 50% 0 no-repeat; }
+.main_quick_menu li.quick02 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main02_over.png) 50% 0 no-repeat; }
+.main_quick_menu li.quick03 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main03_over.png) 50% 0 no-repeat; }
+.main_quick_menu li.quick04 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main04_over.png) 50% 0 no-repeat; }
+.main_quick_menu li.quick05 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main05_over.png) 50% 0 no-repeat; }
+.main_quick_menu li.quick06 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main06_over.png) 50% 0 no-repeat; }
+
+.bbs_wrap { width:100%; height:70px; display:-ms-flexbox; display:-webkit-box; display:flex; -webkit-box-orient: horizontal; -ms-flex-direction: row; flex-direction: row; -webkit-box-lines: single; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center; border-bottom:1px solid #e5e5e5; }
+.bbs_wrap .bbs_column { -webkit-box-flex:0 600px; -ms-flex:0 600px; flex:0 600px; }
+.bbs_wrap .bbs_column:first-child { border-right:1px solid #e5e5e5; }
+.bbs_wrap .bbs_column dl { height:100%; display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-align:center; -webkit-box-align:center; align-items:center; }
+.bbs_wrap .bbs_column dt { flex:1 28%; font-size:21px; font-weight:700; padding:0 16px 0 30px;}
+.bbs_wrap .bbs_column dd { flex:2 62%; position:relative; text-align:left; padding-right:18px; height:70px;}
+.bbs_wrap .bbs_column dd.more { flex:3 10%; position:relative; text-align:left; padding-right:18px; height:auto; }
+.bbs_wrap .bbs_column dd .content { display:block; vertical-align:middle; font-size:16px; color:#747574; position:absolute; left:0; right:0; top:0; bottom:0; line-height:70px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal;}
+.bbs_wrap .bbs_column dd .bt_more {width:auto; position:relative; display:block; }
+/*
+.bbs_wrap .bbs_column dd .bt_more:after {display: block; content: ""; height: 2px; width: 0; background-color: #78a806; position: absolute; left: 0; top:25px; transition: width 0.3s ease;}
+.bbs_wrap .bbs_column dd .bt_more:hover:after {width:100%;}
+*/
+
+
+
+
+
+
+/*news color*/
+/*
+.news span {padding:4px 15px; border-radius:20px; font-size:13px; margin-right:7px;}
+*/
+.type1 {background:#d7361c; color:#fff;}
+.type2 {background:#db6b0a; color:#fff;}
+.type3 {background:#754ea5; color:#fff;}
+.type4 {background:#467915; color:#fff;}
+
+
+.prd_display { width:100%; background:#ecedec; padding:58px 0;}
+.prd_display h3 { font-weight:400; font-size:40px; text-align:center; padding-bottom:14px;}
+.prd_display h3 strong { font-weight:800; font-size:40px; }
+.prd_display p { text-align:center; font-size:18px; color:#3f3f3f; }
+.prd_display .prd_tab { width:1140px; margin:54px auto 0; display:-ms-flexbox; display:-webkit-box; display:flex; -webkit-box-orient: horizontal; -ms-flex-direction: row; flex-direction: row; -webkit-box-lines: single; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center; }
+.prd_display .prd_tab li { -webkit-box-flex:1 1 auto; -ms-flex:1 1 auto; flex:1 1 auto; }
+.prd_display .prd_tab li a { display:block; width:90%; height:90px; border-radius:37px; border:1px solid #e2e2e2; font-size:23px; background:#fff; margin:0 auto; display:-ms-flexbox; display:-webkit-box; display:flex; -webkit-box-orient: horizontal; -ms-flex-direction: row; flex-direction: row; -webkit-box-lines: single; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center; -ms-flex-align:center; -webkit-box-align:center; align-items:center; }
+.prd_display .prd_tab li a.active { background:#5aab3a; border:1px solid #2d8509; color:#fff; }
+.prd_display .prd_tab li a i { display:inline-block; width:56px; height:50px; margin-right:20px; }
+.prd_display .prd_tab li.prdtab01 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd01.png) center center no-repeat; }
+.prd_display .prd_tab li.prdtab02 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd02.png) center center no-repeat; }
+.prd_display .prd_tab li.prdtab03 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd03.png) center center no-repeat; }
+.prd_display .prd_tab li.prdtab04 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd04.png) center center no-repeat; }
+
+.prd_display .prd_tab li.prdtab01 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd01_active.png) center center no-repeat; }
+.prd_display .prd_tab li.prdtab02 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd02_active.png) center center no-repeat; }
+.prd_display .prd_tab li.prdtab03 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd03_active.png) center center no-repeat; }
+.prd_display .prd_tab li.prdtab04 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd04_active.png) center center no-repeat; }
+
+.prd_display .prd_list { width:1200px; margin:40px auto 0; }
+.prd_display .prd_list ul { display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-wrap:wrap; -webkit-flex-wrap:wrap; flex-wrap:wrap; -ms-flex-pack:start; -webkit-box-pack:start; justify-content:flex-start;}
+.prd_display .prd_list li { -webkit-box-flex:0 24%; -ms-flex:0 24%; flex:0 24%; background:#fff; margin-top:14px; margin-left:.5%; margin-right:.5%;}
+.prd_display .prd_list li a .max_prd_img { width: 100%; height: 0; padding-bottom: 100%; overflow: hidden; display: block; }
+.prd_display .prd_list li a .max_prd_img img { width:100%; }
+.prd_display .prd_list li a .text_area { height:138px; display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-direction:column; -webkit-box-orient:vertical; flex-direction:column; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center; -ms-flex-align:center; -webkit-box-align:center; align-items:center; }
+.prd_display .prd_list li a .text_area strong { text-align:center; font-size:20px; color:#000; display:block; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; width:90%; height:48px; line-height:24px; overflow:hidden; text-overflow:ellipsis; word-wrap:normal; }
+.prd_display .prd_list li a .text_area .max_price_box { padding-top:10px; }
+.prd_display .prd_list li a .text_area .max_price_box .price_label { font-size:18px; vertical-align:middle;}
+.prd_display .prd_list li a .text_area .max_price_box .price { font-size:26px; color:#dd740d; font-weight:600; vertical-align:middle;}
+.prd_display .prd_list li a .text_area .max_price_box .wontext { font-size:14px; vertical-align:middle;}
+
+.prd_display .prd_more { width:186px; height:52px; border:1px solid #000; background:#fff; color:#000; font-size:18px; display:block; margin:58px auto 0; text-align:center; line-height:52px;}
+
+.quotation { width:100%; height:355px; }
+.quotation ul { display:-ms-flexbox; display:-webkit-box; display:flex; -webkit-box-lines: single; -ms-flex-wrap: nowrap; flex-wrap: nowrap;  height:100%; }
+.quotation ul li { -webkit-box-flex:0 25%; -ms-flex:0 25%; flex:0 25%;  display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-align:center; -webkit-box-align:center; align-items:center; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center; box-sizing:border-box;}
+.quotation ul li a { color:#fff; text-align:center; width:100%; height:100%; position:relative; display:block;}
+.quotation ul li a .main_tt { position:absolute; z-index:2; left:0; right:0; top:0; bottom:0; display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-direction:column; -webkit-box-orient:vertical; flex-direction:column; -ms-flex-pack:center; -webkit-box-pack:center; justify-content:center; -ms-flex-align:center; -webkit-box-align:center; align-items:center; transition: all 0.4s ease;}
+.quotation ul li a h4 { font-size:30px; font-weight:bold; padding-bottom:15px; text-shadow: 1px 1px #111; /*text-shadow: 1px 1px 1px rgba(0,0,0,0.5);*/}
+.quotation ul li a span { font-size:20px; line-height:26px; font-weight:bold; text-shadow: 1px 1px #000;}
+.quotation ul li a:hover {  }
+
+.quotation ul li a:hover .main_tt_black { width: 100%; height: 100%; left:0; top:0; background: rgba(0,0,0,0.5); border:20px solid #f3b40a; box-sizing:border-box; transition: all 0.6s ease; position:absolute; z-index:1; }
+.quotation ul li.quotation01 { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/bg_quote01.png) center center no-repeat; border-left:none;}
+.quotation ul li.quotation02 { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/bg_quote02.png) center center no-repeat; }
+.quotation ul li.quotation03 { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/bg_quote03.png) center center no-repeat; }
+.quotation ul li.quotation04 { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/bg_quote04.png) center center no-repeat; }
+
+.customer { width:100%; padding:58px 0;}
+.customer h3 { font-weight:400; font-size:40px; text-align:center; padding-bottom:14px;}
+.customer h3 strong { font-weight:800; font-size:40px;}
+.customer > p { text-align:center; font-size:18px; color:#3f3f3f; }
+
+.customer .customer_column_wrap { width:1200px; margin:80px auto 0; display:table;}
+.customer .customer_column { display:table-cell; width:33.33%;  box-sizing:border-box; }
+.customer .customer_column h4 { font-size:25px; font-weight:700; padding: 0px 35px;}
+.customer .customer_column ul { padding: 0 35px; }
+
+.customer .cus_info01 { position:relative;}
+.customer .cus_info01:after {content:""; width:1px; height:170px; background:#c8c8c8; position:absolute; display:block; right:0; top:60px;}
+.customer .cus_info01 ul { padding-top:20px;}
+.customer .cus_info01 li {display:inline-block; width:48%; font-size:18px; font-weight:300; margin-top:10px;}
+.customer .cus_info01 li strong {display:inline-block; font-size:23px; font-weight:800; padding-top:10px;}
+.customer .cus_info01 li.cus_phone {display:block; width:100%; line-height:32px; margin-top:0;}
+.customer .cus_info01 li.cus_phone strong {display:inline; font-size:32px; font-weight:800;}
+
+.customer .cus_info01 .cus_timeinfo {display:block; width:calc(100% - 70px); background:#e8e8e8; padding:8px 0px; margin:20px auto 0; box-sizing:border-box; text-align:center; line-height:24px;}
+.customer .cus_info01 .cus_timeinfo .label {font-size:18px;}
+.customer .cus_info01 .cus_timeinfo .label span {color:#a90707; font-size:15px;}
+.customer .cus_info01 .cus_timeinfo .value {font-size:17px;}
+.customer .cus_info01 .cus_timeinfo .important{font-weight:700; color:#a90707;}
+
+.customer .cus_info02 { position:relative; }
+.customer .cus_info02:after {content:""; width:1px; height:170px; background:#c8c8c8; position:absolute; display:block; right:0; top:60px;}
+.customer .cus_info02 ul { display:block; padding-top:50px;}
+.customer .cus_info02 li { display:block; font-size:23px; padding:8px 0; }
+.customer .cus_info02 li:first-child { font-size:19px; color:#565555; letter-spacing:1px;}
+
+.customer .cus_info03 h4 {text-align:center;}
+.customer .cus_info03 div {width:70%; height:auto; text-align:center; display:table; margin:40px auto 0;}
+.customer .cus_info03 div p {display:table-cell; vertical-align:middle; width:50%; padding:0 10px;}
+.customer .cus_info03 div p a {display:block; font-size:0; width:120px; height:36px;}
+.customer .cus_info03 div p .btn_google { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/btn_googleplay.png) center no-repeat; background-size:100%;}
+.customer .cus_info03 div p .btn_apple { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/btn_appstore.png) center no-repeat; background-size:100%; margin-top:12px }
+.customer .cus_info03 > p {width:100%; text-align:center; font-size:21px; line-height:32px; color:#565555; margin-top:20px;}
+.customer .cus_info03 > p strong {font-size:inherit; font-weight:700; display:block; line-height:28px; color:#000;}
+
+.scroll_btn { position:fixed; bottom:50px; width:54px; height:72px; left:50%; margin-left:-27px; background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/scrolldown.png) 0 0 no-repeat; background-size:100%; z-index: 99999;}
+
+@media screen and (max-width: 1200px) {
+	.main_quick_menu { width:100%; }
+	.main_quick_menu li a { font-size:18px; }
+	.bbs_wrap .bbs_column { -webkit-box-flex:0 50%; -ms-flex:0 50%; flex:0 50%; }
+	.bbs_wrap .bbs_column dd .content { text-overflow:ellipsis; white-space:nowrap; word-wrap:normal; }
+	.prd_display .prd_tab { width:94%; }
+	.prd_display .prd_tab li a { /* width:190px; */ height:80px; }
+	.prd_display .prd_tab li a i { width:48px; height:43px; margin-right:15px; }
+	.prd_display .prd_tab li.prdtab01 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd01.png) center center no-repeat; background-size: 100%; }
+	.prd_display .prd_tab li.prdtab02 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd02.png) center center no-repeat; background-size: 100%;}
+	.prd_display .prd_tab li.prdtab03 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd03.png) center center no-repeat; background-size: 100%;}
+	.prd_display .prd_tab li.prdtab04 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd04.png) center center no-repeat; background-size: 100%; }
+	.prd_display .prd_tab li.prdtab01 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd01_active.png) center center no-repeat; background-size: 100%; }
+	.prd_display .prd_tab li.prdtab02 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd02_active.png) center center no-repeat; background-size: 100%; }
+	.prd_display .prd_tab li.prdtab03 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd03_active.png) center center no-repeat; background-size: 100%; }
+	.prd_display .prd_tab li.prdtab04 a.active i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_prd04_active.png) center center no-repeat; background-size: 100%; }
+	.prd_display .prd_list { width:90%; }	
+
+	.customer .customer_column_wrap { width:100%; }
+	.customer .customer_column h4 { font-size:22px; }
+
+	.customer .cus_info01 li {font-size:16px;}
+	.customer .cus_info01 li strong {font-size:18px;}
+	.customer .cus_info01 li.cus_phone strong { font-size:28px; }
+	.customer .cus_info01 .cus_timeinfo .label {font-size:18px;}
+	.customer .cus_info01 .cus_timeinfo .label span {font-size:12px;}
+	.customer .cus_info02 li {font-size:19px; letter-spacing:0;}
+	.customer .cus_info03 > p {font-size:20px;}
+}
+@media screen and (max-width: 1024px) {
+	.main_visual { width:100%; height:520px; position:relative;  }
+	.main_visual ul.visual_wrap { width:100%; height:520px; position:relative; }
+	.main_visual ul.visual_wrap li a { margin-top:-50px;  }
+	.main_visual ul.visual_nav { margin-top: 106px;}
+
+	.main_quick_menu { width:90%; bottom:20px; }
+	.main_quick_menu li a { font-size:16px;}
+	.bbs_wrap .bbs_column dd .content { text-overflow:ellipsis; white-space:nowrap; word-wrap:normal;}
+	.prd_display .prd_tab li a { /* width:170px; */ height:70px; border-radius:30px; font-size:20px; }
+
+	.prd_display .prd_list li a .text_area { height:120px; }
+	.prd_display .prd_list li a .text_area strong { font-size:18px; height:40px; line-height:20px; }
+	.prd_display .prd_list li a .text_area .max_price_box { padding-top:10px; }
+	.prd_display .prd_list li a .text_area .max_price_box .price_label { font-size:14px; vertical-align:middle;}
+	.prd_display .prd_list li a .text_area .max_price_box .price { font-size:18px; }
+	.prd_display .prd_list li a .text_area .max_price_box .wontext { font-size:12px; vertical-align:middle;}
+
+	.quotation { height:280px; }
+	.quotation ul li a h4 { font-size:24px; font-weight:600; padding-bottom:10px; text-shadow:none;}
+	.quotation ul li a span { font-size:16px; line-height:26px; text-shadow:none;}
+	
+	.customer .customer_column h4 { padding:0 20px; font-size:20px;}
+	.customer .customer_column ul { padding:0 20px; margin-top:20px;}
+	.customer .cus_info01:after {top:40px;}
+	.customer .cus_info01 li strong {font-size:16px;}
+	.customer .cus_info01 li.cus_phone strong { font-size:24px; }
+	.customer .cus_info01 .cus_timeinfo {width:calc(100% - 40px);}
+	.customer .cus_info01 .cus_timeinfo .label {font-size:18px;}
+	.customer .cus_info01 .cus_timeinfo .value {font-size:12px;}
+	.customer .cus_info02:after {top:40px;}
+	.customer .cus_info02 li {font-size:16px;}
+	.customer .cus_info03 h4 {padding:0;}
+	.customer .cus_info03 div {margin-top:20px;}
+	.customer .cus_info03 > p {font-size:16px; line-height:100%;}
+}
+@media screen and (max-width: 800px) {
+	.main_visual { width:100%; height:520px; position:relative;  }
+	.main_visual ul.visual_wrap { width:100%; height:520px; position:relative; }
+	.main_visual ul.visual_wrap li a { margin-top:-20%; width:auto; height:auto; padding:20px; }
+	.main_visual ul.visual_wrap li a .ln1 { font-size:30px; }
+	.main_visual ul.visual_wrap li a .ln2 { font-size:30px; }
+	.main_visual ul.visual_nav { margin-top: 10%;}
+
+	.main_quick_menu { width:100%; -webkit-box-lines:multi; -ms-flex-wrap:wrap; flex-wrap:wrap; bottom:0; }	
+	.main_quick_menu li { -webkit-box-flex:1 1 33%; -ms-flex: 1 1 33%; flex: 1 1 33%; background:#282828; padding:10px 0; box-sizing:border-box; border-right:1px solid #494949; border-bottom:1px solid #494949;}
+	.main_quick_menu li:nth-child(3n) { border-right:none; }
+	.main_quick_menu li:nth-child(n+4) { border-bottom:none; }
+	.main_quick_menu li a { font-size:14px; font-weight:300; display:-ms-flexbox; display:-webkit-box; display:flex; -webkit-box-orient: horizontal; -ms-flex-direction: row; flex-direction: row; -webkit-box-lines: single; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -ms-flex-align:center; -webkit-box-align:center; align-items:center; }
+	.main_quick_menu li.quick01 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main01_normal.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px;}
+	.main_quick_menu li.quick02 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main02_normal.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px;}
+	.main_quick_menu li.quick03 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main03_normal.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px;}
+	.main_quick_menu li.quick04 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main04_normal.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px;}
+	.main_quick_menu li.quick05 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main05_normal.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px;}
+	.main_quick_menu li.quick06 i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main06_normal.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px;}
+
+	.main_quick_menu li.quick01 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main01_over.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px; }
+	.main_quick_menu li.quick02 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main02_over.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px; }
+	.main_quick_menu li.quick03 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main03_over.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px; }
+	.main_quick_menu li.quick04 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main04_over.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px; }
+	.main_quick_menu li.quick05 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main05_over.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px; }
+	.main_quick_menu li.quick06 a:hover i { background:url(https://humanherb.kr:443/layout/maxskin_humanherb/image/main/ico_main06_over.png) 50% 50% no-repeat; display:inline-block; width:38px; height:42px; background-size:100%; vertical-align:middle; margin-right:20px; margin-left:30px; }
+
+	.bbs_wrap { width:100%; height:auto; display:block; border-bottom:1px solid #e5e5e5; }
+	.bbs_wrap .bbs_column { display:block;  }
+	.bbs_wrap .bbs_column:first-child { border-bottom:1px solid #e5e5e5; border-right:none;}
+	.bbs_wrap .bbs_column dl { height:100%; padding:5px 0; display:-ms-flexbox; display:-webkit-box; display:flex; -ms-flex-align:center; -webkit-box-align:center; align-items:center; }
+	.bbs_wrap .bbs_column dt { -webkit-box-flex:1 20%; -ms-flex:1 20%; flex:1 20%; font-size:14px;  }
+	.bbs_wrap .bbs_column dd { -webkit-box-flex:1 75%; -ms-flex:1 75%; flex:1 75%;  display:-ms-flexbox; display:-webkit-box; display:flex; -webkit-box-orient: horizontal; -ms-flex-direction: row; flex-direction: row; -ms-flex-align:center; -webkit-box-align:center; align-items:center; height:50px; }
+	.bbs_wrap .bbs_column dd.more { -webkit-box-flex:3 5%; -ms-flex:3 5%; flex: 3 5%;}
+	.bbs_wrap .bbs_column dd .content { -webkit-box-flex:1 auto; -ms-flex:1 auto; flex:1 auto; text-align: left; line-height:50px; }
+	.bbs_wrap .bbs_column dd .btn_add { -webkit-box-flex:0 40px; -ms-flex:0 40px; flex:0 40px; }
+
+
+	.prd_display h3 { font-size:32px; font-weight:300; }
+	.prd_display p { font-size:14px; }
+	.prd_display h3 strong { font-weight:800; font-size:32px; }
+	
+	.prd_display .prd_tab { width:94%; }
+	.prd_display .prd_tab li a { width:92%; height:140%; border-radius:20px; font-size:13px; }
+	.prd_display .prd_tab li a i { width:36px; height:32px; margin-right:10px; }
+
+	.prd_display .prd_list { width:94%; text-align:center; }
+	.prd_display .prd_list li { -webkit-box-flex:0 32%; -ms-flex:0 32%; flex:0 32%; }
+	.prd_display .prd_list li a .text_area { height:90px; }
+	.prd_display .prd_list li a .text_area strong { font-size:14px; height:32px; line-height:16px; }
+	.prd_display .prd_list li a .text_area .max_price_box { padding-top:10px; }
+	.prd_display .prd_list li a .text_area .max_price_box .price_label { font-size:12px; vertical-align:middle;}
+	.prd_display .prd_list li a .text_area .max_price_box .price { font-size:16px; }
+	.prd_display .prd_list li a .text_area .max_price_box .wontext { font-size:12px; vertical-align:middle;}
+
+	.prd_display .prd_more { font-size:14px; width:auto; height:auto; padding:2% 10%; line-height:unset; display:inline-block; margin:5% auto 0; }
+
+	.quotation { height:340px; }
+	.quotation ul { -ms-flex-wrap:wrap; -webkit-flex-wrap:wrap; flex-wrap:wrap; -ms-flex-direction:column; -webkit-box-orient:vertical; flex-direction:column; }
+	.quotation ul li { -webkit-box-flex:0 49%; -ms-flex:0 49%; flex:0 49%; height:50%; }
+	.quotation ul li:nth-child(3) { border-left:none; }
+	.quotation ul li:nth-child(n+3) {}
+	.quotation ul li a h4 { font-size:18px; font-weight:600; padding-bottom:10px; text-shadow:none;}
+	.quotation ul li a span { font-size:12px; line-height:18px; text-shadow:none;}
+	.quotation ul li a:hover .main_tt_black {border:10px solid #f3b40a;}
+
+	.customer h3 { font-size:32px; font-weight:300; }
+	.customer h3 strong { font-weight:800; font-size:32px;}
+	.customer > p { font-size:14px; }
+	
+	.customer .customer_column_wrap {display:block; margin:40px auto 0; padding:0 20px; box-sizing:border-box;}
+	.customer .customer_column {float:left; display:block; width:100%; padding:0; box-sizing:border-box; position:relative; overflow:hidden;}
+	.customer .customer_column:after {content:''; display:block; clear:both;}
+	.customer .customer_column h4 { font-size:22px; padding:0;}
+	.customer .customer_column ul {padding:0;}
+
+	.customer .cus_info01 {border-bottom:1px solid #eaeaea; padding-bottom:40px;}
+	.customer .cus_info01:after {display:none;}
+	.customer .cus_info01 ul {float:left; width:50%; box-sizing:border-box;}
+	.customer .cus_info01 li strong {display:block; font-size:18px;}
+	.customer .cus_info01 li.cus_phone strong { font-size:22px; }
+	.customer .cus_info01 .cus_timeinfo {float:left; width:50%; padding:20px 0;}
+	.customer .cus_info01 .cus_timeinfo .label span {font-size:16px;}
+	.customer .cus_info01 .cus_timeinfo .value {font-size:16px;}
+
+	.customer .cus_info02, .customer .cus_info03 {width:50%; margin-top:40px; padding-bottom:40px;}
+	.customer .cus_info02:after {display:none;}
+	.customer .cus_info02 li {font-size:16px;}
+
+	.scroll_btn { display:none; }
+}
+@media screen and (max-width: 568px) {
+	.customer .customer_column h4 {font-size:20px;}
+	.customer .cus_info01 ul {width:100%; padding:0;}
+	.customer .cus_info01 li {font-size:18px;}
+	.customer .cus_info01 li.cus_phone strong { font-size:20px; }
+	.customer .cus_info01 .cus_timeinfo {width:100%;}
+
+	.customer .cus_info02, .customer .cus_info03 {width:100%;}
+	.customer .cus_info02 {border-bottom:1px solid #eaeaea;}
+	.customer .cus_info02 li {font-size:18px;}
+	.customer .cus_info02 li:first-child {font-size:18px;}
+	.customer .cus_info03 > p {font-size:18px;}
+}
+@media screen and (max-width: 480px) {
+	.main_visual { height:380px; }
+	.main_visual ul.visual_wrap { height:380px; }
+	.main_visual ul.visual_wrap li a { margin-top:-20%;  }
+	.main_visual ul.visual_wrap li a .ln1 { font-size:18px; }
+	.main_visual ul.visual_wrap li a .ln2 { font-size:18px; }
+	.main_visual ul.visual_nav { margin-top: 15%;}
+
+	.main_quick_menu li a { font-size:11px; }
+	.main_quick_menu li.quick01 i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px;}
+	.main_quick_menu li.quick02 i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px;}
+	.main_quick_menu li.quick03 i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px;}
+	.main_quick_menu li.quick04 i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px;}
+	.main_quick_menu li.quick05 i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px;}
+	.main_quick_menu li.quick06 i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px;}
+
+	.main_quick_menu li.quick01 a:hover i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px; }
+	.main_quick_menu li.quick02 a:hover i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px; }
+	.main_quick_menu li.quick03 a:hover i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px; }
+	.main_quick_menu li.quick04 a:hover i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px; }
+	.main_quick_menu li.quick05 a:hover i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px; }
+	.main_quick_menu li.quick06 a:hover i { display:inline-block; width:26px; height:30px; background-size:100%; vertical-align:middle; margin-right:5px; margin-left:8px; }
+
+	.bbs_wrap .bbs_column dl { padding:2px 0; }
+	.bbs_wrap .bbs_column dt {  font-size:12px; }
+	.bbs_wrap .bbs_column dd .content { font-size:12px; }
+
+	.prd_display h3 { font-size:24px; }
+	.prd_display h3 strong {font-size:inherit;}
+	.prd_display .prd_tab { width:94%; }
+	.prd_display .prd_tab li a { width:92%; height:140%; border-radius:10px; font-size:12px; }
+	.prd_display .prd_tab li a i { width:18px; height:22px; margin-right:3px; }
+
+	.prd_display .prd_list li { -webkit-box-flex:0 47%; -ms-flex:0 47%; flex:0 47%; }
+}
+
+/**********y_work*****************/
